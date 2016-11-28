@@ -63,7 +63,7 @@ database-level validation: we put the validation in the database and in the migr
 
 application-level validations: we put validate property to do this validation in model part.
 
-We should put all the necessary validations to database and application. Database validation helps data integrity while application validations helps further. Also application level validations would run before the SQL statements.
+We should put all the necessary validations to database and application. Database validation helps data integrity while application validations helps further. Also application level validations would run before the SQL insert/update/destroy statements.
 
 ### 7 - Why do we use bcrypt. Write down 3 reasons why we use it if you can.
 
