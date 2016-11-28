@@ -4,7 +4,7 @@ Given that we have a "customer" resource/model in our web server,
 
 ### 1 - How would you design the routes of your server based on REST convention? List them with VERB and /route
 
-### 2 - Which pages would require templates, and how would you name them? List them with /route and template-name.extension
+### 2 - Which routes would require templates, and how would you name the templates? List them with /route and template-name.extension
 
 =========
 
