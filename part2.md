@@ -76,9 +76,10 @@ They are notification messages, to show users that an action was successful or u
 
 ### 9 - What is the difference between minifying and obfuscating JavaScript?
 Minifying: removes all the unnecessary whitespaces from JavaScript.
+
 Obfuscation: modifies all references to single or doublecharacter references, and does more optimizations to save space and speed. Also makes the code harder to read.
 
 ### 10 - What are the 3 reasons that makes Gulp a good choice as an asset build library?
-1 - It leverages node streams, follows the node way.
-2 - It is intuitive and easy to configure.
-3 - There are many packages out there for doing the standard tasks so you dont have to write custom logic.
+1- It leverages node streams, follows the node way.
+2- It is intuitive and easy to configure.
+3- There are many packages out there for doing the standard tasks so you dont have to write custom logic.
