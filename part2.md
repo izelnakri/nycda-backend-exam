@@ -4,7 +4,7 @@ Given that we have a "customer" resource/model in our web server,
 
 ### 1 - How would you design the routes of your server based on REST convention? List them with VERB and /route
 | HTTP VERB/METHOD | ROUTE               |
-| ---------------- | -------------------:|
+| ---------------- | :-------------------|
 | GET              | /customers          |
 | GET              | /customers/new      |
 | POST             | /customers          |
@@ -25,9 +25,9 @@ Given that we have a "customer" resource/model in our web server,
 =========
 
 ### 3 - What is a database constraint? Name the 3 types of database constraints you have learned.
-foreign key column - points to a primary key in another table
-not null column  - can not be null (empty)
-unique column - has to be unique, not the same value as in another record
+- foreign key column - points to a primary key in another table
+- not null column  - can not be null (empty)
+- unique column - has to be unique, not the same value as in another record
 
 ### 4 - What is a foreign key? Given that you have a Factory that has many cars and car that belongs to a factory, What would be your foreign key column?
 
@@ -38,21 +38,20 @@ Cars table has factoryId column that refers to the Factories tables. In other wo
 ### 5 - List all the model lifecycle hooks you have learned from sequelize and explain them briefly if necessary.
 
 These two run when each database action:
-before validate
-after validate
+- before validate
+- after validate
 
 These two run when persisting the model instance for the first time:
-before create
-after create
+- before create
+- after create
 
 These two run when updating a persisting model instance each time:
-before update
-after update
+- before update
+- after update
 
 These two run when deleting a persisted model instance:
-
-before destroy
-after destroy
+- before destroy
+- after destroy
 
 - for example , we can  put a slug for posts if they don't have one, before create  the post.
 
