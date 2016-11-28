@@ -1,5 +1,5 @@
 ## NYCDA Backend Exam
-=====================
+
 Explain the answers well!!
 
 ### 1- Why should we include script tags at the very end of an html file, before closing  ```</body>```?
