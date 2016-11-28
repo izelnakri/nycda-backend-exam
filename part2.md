@@ -2,7 +2,8 @@
 
 Given that we have a "customer" resource/model in our web server,
 
-### 1 - How would you design the routes of your server based on REST convention? List them with VERB and /route
+### 1 - How would you design the routes of your server based on REST convention?
+##### List them with VERB and /route
 | HTTP VERB/METHOD | ROUTE               |
 | ---------------- | :-------------------|
 | GET              | /customers          |
@@ -13,10 +14,11 @@ Given that we have a "customer" resource/model in our web server,
 | PUT              | /customers/:id      |
 | DELETE           | /customers/:id      |
 
-### 2 - Which routes would require templates, and how would you name the templates? List them with /route and template-name.extension
+### 2 - Which routes would require templates, and how would you name the templates?
+##### List them with /route and template-name.extension
 
 | HTTP VERB/METHOD | ROUTE               | TEMPLATE             |
-| ---------------- | -------------------:| --------------------:|
+| ---------------- | :-------------------| :--------------------|
 | GET              | /customers          | /customers/index.hbs |
 | GET              | /customers/new      | /customers/new.hbs   |
 | GET              | /customers/:id      | /customers/show.hbs  |
@@ -57,8 +59,11 @@ These two run when deleting a persisted model instance:
 
 ### 6 - What is the difference between database-level validations and application-level validations?
 
-database-level validation , we put the validation in the database and in the migration files  and when we create the tables. like defining constrains for columns.
-application-level validations, we put validate property to do this validation in model part.
+database-level validation: we put the validation in the database and in the migration files  and when we create the tables. like defining constrains for columns.
+
+application-level validations: we put validate property to do this validation in model part.
+
+We should put all the necessary validations to database and application. Database validation helps data integrity while application validations helps further. Also application level validations would run before the SQL statements.
 
 ### 7 - Why do we use bcrypt. Write down 3 reasons why we use it if you can.
 
@@ -67,13 +72,13 @@ application-level validations, we put validate property to do this validation in
 - You can compare two encrypted hashes to see if they are from the same source
 
 ### 8 - What is a flash message?
-They are notification messages , to show users that an action was successful or unsuccesfull. They are sourced from the application code, application-level validations or db-level validations and passed down to templates for rendering.
+They are notification messages, to show users that an action was successful or unsuccessful. They are sourced from the application code, application-level validations or db-level validations and passed down to templates for rendering.
 
 ### 9 - What is the difference between minifying and obfuscating JavaScript?
-
+Minifying: removes all the unnecessary whitespaces from JavaScript.
+Obfuscation: modifies all references to single or doublecharacter references, and does more optimizations to save space and speed. Also makes the code harder to read.
 
 ### 10 - What are the 3 reasons that makes Gulp a good choice as an asset build library?
-
 1 - It leverages node streams, follows the node way.
 2 - It is intuitive and easy to configure.
 3 - There are many packages out there for doing the standard tasks so you dont have to write custom logic.
