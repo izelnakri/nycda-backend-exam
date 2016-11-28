@@ -12,7 +12,7 @@ Explain the questions well!!
 
 ### 5 - Why do we use a bodyParser middleware ?
 
-### 6 - What is the difference in terms of parsing a data received from a web form with POST or an AJAX POST request?
+### 6 - What is the difference between parsing a data received from a web form with POST and an AJAX POST request?
 
 ### 7 - Why do we use methodOverride middleware ?
 
